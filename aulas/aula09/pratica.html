@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+    <style>
+        body {
+            background-color: #00ff2aa8;
+            font: normal 20pt arial;
+            color: rgb(3, 24, 3);
+        }
+
+        div#area {
+            background-color: blanchedalmond;
+            width: 200px;
+            height: 200px;
+            margin-top: 40px;
+            line-height: 200px;
+            text-align: center;
+            margin-left: 20px;
+            border-radius: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Praticando Js.</h1>
+    <p>Esse é um documento aonde eu prático Js.</p>
+    <div id="area">Interaja..</div>
+
+    <script>
+       //  var nome = window.prompt('Coloque seu nome')
+       // window.alert(`é um prazer te conhecer ${nome}`)
+       var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        var a = window.document.getElementById('area')
+
+        function clicar(){
+            a.innerText = 'clicou'
+            a.style.background = 'black'
+            a.style.color = 'white'
+        }
+        function entrar(){
+            a.innerText = 'Entrou'
+
+        }
+        function sair(){
+            a.innerText = 'Saiu'
+            a.style.background = 'white'
+            a.style.color = 'black'
+        }
+
+    </script>
+</body>
+</html>

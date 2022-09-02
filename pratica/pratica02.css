@@ -1,0 +1,37 @@
+body{
+    font: normal 14pt arial;
+    text-align: center;
+    background-color: #D2E8E3;
+    
+}
+
+section {
+    background-color: #011F26;
+    padding: 30px;
+    max-width: 300px;
+    border-radius:15px;
+    color: white;
+    margin: auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.63);
+}
+
+footer, a {
+    margin-top: 40px;
+    text-decoration: none;
+    color:black;
+    
+}
+
+input#coolt {
+    background-color: rgb(103, 177, 247);
+    border-style: none;
+    padding: 8px;
+    color: black;
+    margin-top: 20px;
+}
+
+input#txtinp {
+    border-style: none;
+    padding: 8px;
+
+}
