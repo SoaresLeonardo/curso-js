@@ -1,0 +1,14 @@
+estrutura de repitição
+
+estas estruturas servem para repetir um número de vezes uma operação
+
+estruturas comuns são while e for
+                                            while -> enquanto   
+
+
+    var x = 0;
+
+    while(x < 10) {}
+
+                                            estrutura for
+     for(var i = 0; i < 10; i++) {}
