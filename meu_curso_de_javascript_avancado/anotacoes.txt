@@ -12,3 +12,21 @@ estruturas comuns são while e for
 
                                             estrutura for
      for(var i = 0; i < 10; i++) {}
+
+
+
+
+
+     function fizzBuzz(num) {
+    if(num % 3 && num %  5  === 0)  return 'FizzBuzz'
+    if(num % 3 === 0)   return 'Fizz'
+    if(num % 5 === 0)  return 'Buzz'
+    return num
+}
+
+
+
+for(let i = 0; i <= 100; i++) {
+   const resultado = fizzBuzz(i)
+   console.log(resultado)
+}
