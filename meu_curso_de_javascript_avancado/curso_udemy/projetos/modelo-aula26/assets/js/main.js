@@ -63,7 +63,7 @@ function setResultado(msg, isValid) {
 
     p.innerHTML = msg;
     resultado.appendChild(p);
-    //insere um elemtento nesta div==>
+    //insere um elemento nesta div==>
 
 }
 
