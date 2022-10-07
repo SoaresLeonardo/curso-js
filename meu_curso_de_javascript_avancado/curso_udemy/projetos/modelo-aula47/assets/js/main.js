@@ -39,4 +39,4 @@ function cronometro() {
     })
 }
 
-cronometro()
+cronometro()    
