@@ -22,8 +22,12 @@ const outraCoisa = {
 
 }
 
-outraCoisa.nome = 'Outro nome'
+// object.assing
 
+Object.defineProperty(produto, 'nome', {
+    writable: false
+})
+console.log(Object.getOwnPropertyDescriptor(produto, 'nome'))
 console.log(produto)
-console.log(outraCoisa)
+
 
