@@ -1,16 +1,20 @@
-const pessoas = [
-    {id: 3, nome: 'Leonardo'},
-    {id: 2, nome: 'Lucas'},
-    {id: 1, nome: 'Maria'},
-];
+class Pessoa {
+    constructor(nome, sobrenome) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        
+    }
 
+    //A classe automaticamente coloca meus metodos no prototype ->
 
-const novasPessoas = new Map();
+    falar() {
+        console.log(`${this.nome} está falando`)
+    }
 
-for(const pessoa of pessoas) {
-    const {id} = pessoa;
-   novasPessoas.set(id, {...pessoa})
 }
 
 
-console.log(novasPessoas);
+const p1 = new Pessoa('Leonardo', 'Henrique');
+
+console.log(p1)
+

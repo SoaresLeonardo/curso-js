@@ -1,49 +1,28 @@
-class DispositivoEletronico {
-    constructor(nome) {
-        this.nome = nome;
-        this.ligado = false;
+class ControleRemoto  {
+    constructor(tv) {
+        this.tv = tv;
+        this.volume = 0;
     }
 
-    ligar() {
-        if(this.ligado) {
-            console.log(`${this.nome} já ligado`)
-            return;
-        }
-        this.ligado = true
+    // Método de instância
+
+    aumentarVolume() {
+        this.volume += 2
     }
 
-    
-    desligar() {
-        if(!this.ligado) {
-            console.log(`${this.nome} já desligado`)
-        }
-
-        this.ligado = false
+    diminuirVolume() {
+        this.volume -= 2
     }
-}
 
-class Smartphone extends DispositivoEletronico {
-    constructor(nome, cor) {
-        super(nome)
-        this.cor = cor;
-    }   
-}
+    // Método estático
 
-class Tablet extends DispositivoEletronico {
-    constructor(nome, temWifi) {
-        super(nome);
-        this.temWifi = temWifi;
-    }
-    
-    ligar() {
-        console.log('Olá')
+     static trocarPilha() {
+        console.log('ok vou trocar');
     }
 }
 
-const t1 = new Tablet('ipad', true);
+const controle = new ControleRemoto('LG');
 
-const s1 =  new Smartphone('iphone','Preto')
-s1.ligar()
-console.log(s1)
-t1.ligar()
-console.log(t1)
+ControleRemoto.trocarPilha()
+
+console.log(controle)

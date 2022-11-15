@@ -1,35 +1,49 @@
-
-const _velocidade = Symbol('_velocidade');
-
-class Carro {
+class DispositivoEletronico {
     constructor(nome) {
         this.nome = nome;
-        this[_velocidade] = 0;
+        this.ligado = false;
     }
 
-    set velocidade(valor) {
-        if(typeof valor !== 'number') return;
-        if(valor >= 100 || valor <= 0) return;
-        this[_velocidade] = valor;
+    ligar() {
+        if(this.ligado) {
+            console.log(`${this.nome} já ligado`)
+            return;
+        }
+        this.ligado = true
     }
 
-    get velocidade() {
-        return this[_velocidade]
-    }
+    
+    desligar() {
+        if(!this.ligado) {
+            console.log(`${this.nome} já desligado`)
+        }
 
-    acelerar() {
-        if(this[_velocidade] >= 100) return;
-        this[_velocidade]++;
-    }
-
-    freiar() {
-        if(this[_velocidade] <= 0) return;
-        this[_velocidade]--;
+        this.ligado = false
     }
 }
 
+class Smartphone extends DispositivoEletronico {
+    constructor(nome, cor) {
+        super(nome)
+        this.cor = cor;
+    }   
+}
 
-// const c1 = new Carro('fusca')
-// c1.acelerar()
-// console.log(c1.velocidade)
+class Tablet extends DispositivoEletronico {
+    constructor(nome, temWifi) {
+        super(nome);
+        this.temWifi = temWifi;
+    }
+    
+    ligar() {
+        console.log('Olá')
+    }
+}
 
+const t1 = new Tablet('ipad', true);
+
+const s1 =  new Smartphone('iphone','Preto')
+s1.ligar()
+console.log(s1)
+t1.ligar()
+console.log(t1)
