@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;;;;AAAA,IAAMA,IAAI,GAAG,UAAU;AAEvB,IAAMC,GAAG,GAAG;EAACD,IAAI,EAAJA;AAAI,CAAC;AAClB,IAAOE,QAAQ,qBAAOD,GAAG,CAAC,C","sources":["webpack://aula93/./src/index.js"],"sourcesContent":["const nome = 'Leonardo'\r\n\r\nconst obj = {nome}\r\nconst  restoObj = {...obj}"],"names":["nome","obj","restoObj"],"sourceRoot":""}
