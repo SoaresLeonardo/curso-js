@@ -1,3 +1,5 @@
-const multiplicacao = require('./mod')
+const Cachorro = require('./mod')
 
-console.log(multiplicacao(5, 5))
+const cachorrinho = new Cachorro('Dog')
+
+cachorrinho.latir()
