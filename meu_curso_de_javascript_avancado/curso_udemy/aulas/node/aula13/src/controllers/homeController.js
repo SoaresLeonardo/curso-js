@@ -1,6 +1,7 @@
 exports.paginaInicial = (req, res ,next) => {
+    console.log('Respondendo ao cliente.')
     res.render('index');
-    next()
+    return;
 };
 
 exports.trataPost = (req, res) => {
