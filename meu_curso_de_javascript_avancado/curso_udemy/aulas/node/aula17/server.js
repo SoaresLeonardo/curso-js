@@ -19,8 +19,10 @@ const csrf = require('csurf');
 const { middlewareGlobal, checkCsrfError, csrfMiddleware } = require('./src/middlewares/middleware')
 
 app.use(helmet());
+
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.resolve(__dirname, 'public')))
+app.use(express.json());
+app.use(express.static(path.resolve(__dirname, 'public')));
 
 const sessionOptions = session({
     secret: 'akasdfj0út23453456+54qt23qv  qwf qwer qwer qewr asdasdasda a6()',
@@ -43,7 +45,7 @@ app.use(csrf());
 // Nossos próprios middlewares
 app.use(middlewareGlobal);
 app.use(checkCsrfError);
-app.use(csrfMiddleware)
+app.use(csrfMiddleware);
 app.use(routes);
 
 app.on('pronto', () => {
