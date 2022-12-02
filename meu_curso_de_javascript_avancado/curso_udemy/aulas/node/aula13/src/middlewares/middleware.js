@@ -1,3 +1,3 @@
-module.exports = (req, res, next) => {
+exports.middlewareGlobal = (req, res, next) => {
     next();
 };
