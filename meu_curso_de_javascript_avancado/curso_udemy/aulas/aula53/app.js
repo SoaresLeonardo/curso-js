@@ -1,9 +1,9 @@
 function retornaFuncao(nome) {
-    return function() {
-        return nome
-    }
+  return function () {
+    return nome;
+  };
 }
 
-const funcao = retornaFuncao('leo')
+const funcao = retornaFuncao("leo");
 
-console.log(funcao)
+console.log(funcao);
