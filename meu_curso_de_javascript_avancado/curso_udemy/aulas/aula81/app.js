@@ -1,4 +1,3 @@
-
 const _velocidade = Symbol('_velocidade');
 
 class Carro {
@@ -27,9 +26,3 @@ class Carro {
         this[_velocidade]--;
     }
 }
-
-
-// const c1 = new Carro('fusca')
-// c1.acelerar()
-// console.log(c1.velocidade)
-
