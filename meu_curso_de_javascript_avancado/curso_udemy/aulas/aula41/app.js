@@ -12,8 +12,7 @@
 
 // recebeNumero(4, 4)
 
-
 // Um jeito mais simples:
 
-const recebeNum = (num1, num2) => num1 > num2 ? num1 : num2;
-console.log(recebeNum(2,5))
+const recebeNum = (num1, num2) => (num1 > num2 ? num1 : num2);
+console.log(recebeNum(2, 5));
