@@ -7,6 +7,5 @@ console.log('João casou-se com Maria em 2012');
 console.log('Maria teve um filho com João em 2015.');
 console.log('O filho de João se chama Eduardo.');
 
-
 // Não podemos criar variáveis com palavras reservadas
 // Variáveis precisam ter nomes significativos
