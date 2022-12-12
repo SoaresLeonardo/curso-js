@@ -1,7 +1,7 @@
- function daOi()  {
-    return 'oi'
- }
+function daOi() {
+  return "oi";
+}
 
- const vaiExecultar = 'teste'
+const vaiExecultar = "teste";
 
-console.log(vaiExecultar && daOi())
+console.log(vaiExecultar && daOi());
