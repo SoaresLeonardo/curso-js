@@ -50,15 +50,15 @@ function criarP() {
 function setResultado(msg, isValid) {
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = '';
-    
+
     const p = criarP();
-    
+
     if (isValid) {
         p.classList.add('paragrafo-resultado-valido')
     } else {
         p.classList.add('bad')
     }
-    
+
 
 
     p.innerHTML = msg;
