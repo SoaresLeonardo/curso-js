@@ -1,5 +1,3 @@
-
-
 //O switch case funciona como um if, porém pode ser mais rápido e prático usar ele do que o if em certos momentos, Porém ao declarar a condição no case é necessario colocar o Break;
 function getDiaDaSemanaTexto(diaDasemana) {
     let diaDasemanaTexto;
@@ -33,9 +31,7 @@ function getDiaDaSemanaTexto(diaDasemana) {
         
 }
 const data =  new Date();
-
 let diaDasemana =  data.getDay();
 const diasemanatexto = getDiaDaSemanaTexto(diaDasemana)
-
 console.log(diaDasemana,diasemanatexto)
 
