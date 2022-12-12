@@ -1,7 +1,7 @@
 const pessoa1 = {
-    nome: 'Luiz',
-    sobrenome: 'Miranda',
-    idade: 25,
+    nome: 'Leonardo',
+    sobrenome: 'Henrique',
+    idade: 15,
   
     fala() {
       console.log(`A minha idade atual é ${this.idade}.`);
