@@ -6,5 +6,3 @@ Operadores lógicos
 ! NOT NÃO
 */
 
-
-console.log()
