@@ -6,23 +6,17 @@
 //     // Sempre
 // }
 
-
-
 function retornahora(data) {
-    if( data && !(data instanceof Date)) {
-        throw new TypeError('Esperando instância de Date.')
-    }
+  if (data && !(data instanceof Date)) {
+    throw new TypeError("Esperando instância de Date.");
+  }
 
-    if(!data) {
-        data = new Date();
-    }
+  if (!data) {
+    data = new Date();
+  }
 
-    return data.toLocaleTimeString('pt-BR', {
-
-    });
-
+  return data.toLocaleTimeString("pt-BR", {});
 }
 
-const hora =  retornahora()
-console.log(hora)
-
+const hora = retornahora();
+console.log(hora);
