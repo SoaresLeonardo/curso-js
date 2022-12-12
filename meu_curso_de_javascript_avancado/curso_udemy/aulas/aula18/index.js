@@ -1,18 +1,21 @@
-// primitivos (imutáveis) - string, number, boolean, undefined, null 
-
-// let a = 'A';
-// let b = a; //Cópia
-// a = 'Outra coisa';
-// console.log(a, b)
-
-// Referencia (mutável) - array, object, function;
-
-let a = [1, 2, 3];
-let b = a; // let b = [...a]; 
-console.log(a, b)
-
-a.push(4)
-
-b.pop();
-
-console.log(a, b)  
+const pessoa1 = {
+    nome: 'Luiz',
+    sobrenome: 'Miranda',
+    idade: 25,
+  
+    fala() {
+      console.log(`A minha idade atual é ${this.idade}.`);
+    },
+  
+    incrementaIdade() {
+      this.idade++;
+    }
+  };
+  
+  pessoa1.fala();
+  pessoa1.incrementaIdade();
+  pessoa1.fala();
+  pessoa1.incrementaIdade();
+  pessoa1.fala();
+  pessoa1.incrementaIdade();
+  pessoa1.fala();
