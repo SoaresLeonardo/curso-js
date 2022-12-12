@@ -1,13 +1,12 @@
-const fala = 'oi'
+const fala = "oi";
 
 function falaoi() {
-console.log(fala)
+  console.log(fala);
 }
 
 function execulta() {
-    const fala = 'oi2'
-    falaoi();
+  const fala = "oi2";
+  falaoi();
 }
-
 
 execulta();
