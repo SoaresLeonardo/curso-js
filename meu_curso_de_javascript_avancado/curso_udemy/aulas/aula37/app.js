@@ -12,22 +12,18 @@
 
 // console.log("$$$$")
 
-
 // for(let valor of nomes) {
 //     console.log(valor);
 // }
 
-
 const pessoa = {
-    nome: 'Leonardo',
-    sobrenome: 'Henrique'
-}
- 
+  nome: "Leonardo",
+  sobrenome: "Henrique",
+};
 
-for(let i in pessoa) {
-    console.log(i);
+for (let i in pessoa) {
+  console.log(i);
 }
-
 
 // For clássico => Geralmente com interáveis (array, strings)
 // For in => Retorna o índice ou chave (string, array ou objetos)
