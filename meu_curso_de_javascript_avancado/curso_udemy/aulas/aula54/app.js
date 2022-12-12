@@ -1,5 +1,4 @@
 // Criando uma função para gerar um timeOut aleatorio para simular um banco de dado
-
 function rand(min = 1000, max = 3000) {
     const num = Math.random() * (max- min) + min;
     return Math.floor(num);
