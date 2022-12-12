@@ -1,4 +1,4 @@
-const frutas = ['maça', 'uva', 'pera', 'melancia']
+const frutas = ["maça", "uva", "pera", "melancia"];
 
 // for in => lê os indices ou chaves do bjeto
 // for(let i in frutas) {
@@ -6,17 +6,17 @@ const frutas = ['maça', 'uva', 'pera', 'melancia']
 // }
 
 const pessoa = {
-    nome: 'Leonardo',
-    sobrenome: 'Henrique',
-    idade: 15
+  nome: "Leonardo",
+  sobrenome: "Henrique",
+  idade: 15,
+};
+
+for (let i in pessoa) {
+  console.log(i);
 }
 
-for(let i in pessoa) {
-    console.log(i);
-}
+// for(let i = 0; i < frutas.length; i++) {
 
-    // for(let i = 0; i < frutas.length; i++) {
+//     console.log(frutas[i]);
 
-    //     console.log(frutas[i]);
-
-    // }
+// }
