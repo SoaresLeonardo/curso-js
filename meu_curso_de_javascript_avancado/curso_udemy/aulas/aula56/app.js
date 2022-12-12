@@ -5,10 +5,10 @@ function criaPessoa(nome, sobrenome, altura, peso) {
          nome,
          sobrenome,
 
-
          get nomeCompleto() {
             return  `${this.nome} ${this.sobrenome}`
          },
+
          // Setter
          set nomeCompleto(valor) {
                 valor = valor.split(' ');
@@ -17,18 +17,15 @@ function criaPessoa(nome, sobrenome, altura, peso) {
                 console.log(valor)
          },
 
-
          fala: function(assunto) {
                       // Acessando a chave --nome-- dentro do objeto
             return `${this.nome} está ${assunto} `
          },
 
-
          altura: altura,
          peso: peso,
 
-
-         // Getter
+        // Getter
         get imc() {
             const indice = this.peso  / (this.altura ** 2);
             return indice.toFixed(2);
