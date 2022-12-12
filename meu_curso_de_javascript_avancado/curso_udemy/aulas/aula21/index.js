@@ -11,6 +11,5 @@ Operadores de comparação
 !== diferente escrito
 */
 
-
 // console.log(10 > 5); Estou pergutando para a linguagem se o 10 é maior que 5
 
