@@ -1,6 +1,7 @@
 
 
-# javascript
+# Curso de JavaScript do Básico ao avançado
  
-Olá aqui está meu cantinho do `JavaScript`, aqui contém tudo o que eu realizo durante os meus cursos sobre a linguagem. E alguns projetos que posso estar realizando durante meu aprendizado!
+Esté é meu repositorio com os arquivos das minhas aulas na Udemy <br>
+https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
 
