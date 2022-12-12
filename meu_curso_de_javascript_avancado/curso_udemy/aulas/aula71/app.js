@@ -1,41 +1,41 @@
-// function Produto(nome, preco, estoque) {
-//     // this.nome = nome;
-//     // this.preco = preco;
+function Produto(nome, preco, estoque) {
+    // this.nome = nome;
+    // this.preco = preco;
     // this.estoque = estoque;
 
-//     Object.defineProperty(this, 'estoque', {
-//         enumerable: true, // mostra a chave
-//         value: estoque, // valor
-//         writable: false, // pode alterar ou não
-//         configurable: false // configuravel
-//     })
-//     // Object.defineProperty(this, 'estoque', {
-//     //     enumerable: true, // mostra a chave
-//     //     value: estoque, // valor
-//     //     writable: false, // pode alterar ou não
-//     //     configurable: true // configuravel
-//     // })
+    Object.defineProperty(this, 'estoque', {
+        enumerable: true, // mostra a chave
+        value: estoque, // valor
+        writable: false, // pode alterar ou não
+        configurable: false // configuravel
+    })
+    // Object.defineProperty(this, 'estoque', {
+    //     enumerable: true, // mostra a chave
+    //     value: estoque, // valor
+    //     writable: false, // pode alterar ou não
+    //     configurable: true // configuravel
+    // })
     
-//     Object.defineProperties(this, {
-//         nome: {
-//             enumerable: true, // mostra a chave
-//             value: nome, // valor
-//             writable: false, // pode alterar ou não
-//             configurable: false // configuravel
-//         },
-//         preco: {
-//             enumerable: true, // mostra a chave
-//             value: preco, // valor
-//             writable: false, // pode alterar ou não
-//             configurable: false // configuravel
-//         },
-//     })
-// }
+    Object.defineProperties(this, {
+        nome: {
+            enumerable: true, // mostra a chave
+            value: nome, // valor
+            writable: false, // pode alterar ou não
+            configurable: false // configuravel
+        },
+        preco: {
+            enumerable: true, // mostra a chave
+            value: preco, // valor
+            writable: false, // pode alterar ou não
+            configurable: false // configuravel
+        },
+    })
+}
 
-// const p1 = new Produto('Camiseta', 5, 4)
-// // p1.estoque = 43
-// // console.log(p1)
-// // console.log(Object.keys(p1))
+const p1 = new Produto('Camiseta', 5, 4)
+// p1.estoque = 43
+// console.log(p1)
+// console.log(Object.keys(p1))
 
 
 
