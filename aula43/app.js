@@ -1,5 +1,4 @@
 // escreva uma função que recebe um numerp e retorna o seguinte:
-
 // o numero é divisivel por 3 = fizz é divisivel por 5 = Buzz
 // o numero é divisivel por 3 e 5=  FizBuzz
 // o numero nao é divisivel por 3 e 5 retorna o numero normal
