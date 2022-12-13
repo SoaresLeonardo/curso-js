@@ -30,6 +30,7 @@ function getDiaDaSemanaTexto(diaDasemana) {
         }
         
 }
+
 const data =  new Date();
 let diaDasemana =  data.getDay();
 const diasemanatexto = getDiaDaSemanaTexto(diaDasemana)
