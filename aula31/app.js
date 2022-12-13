@@ -1,3 +1,2 @@
-let nome = 'luiz'
-
-var nome2 = 'luiz'
+let nome = 'Leo'
+var nome2 = 'Leo'
