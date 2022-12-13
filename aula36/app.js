@@ -14,9 +14,3 @@ const pessoa = {
 for (let i in pessoa) {
   console.log(i);
 }
-
-// for(let i = 0; i < frutas.length; i++) {
-
-//     console.log(frutas[i]);
-
-// }
