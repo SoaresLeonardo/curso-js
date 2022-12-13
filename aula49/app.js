@@ -1,5 +1,4 @@
 // declaração de função (function hoisting)
-
 function oi() {
   console.log("oie");
 }
@@ -14,7 +13,6 @@ function execultaFuncao(funcao) {
 }
 
 // execultaFuncao(souUmDado)
-
 // arrow function
 
 const funcaoArrow = () => {
@@ -31,4 +29,3 @@ const obj = {
   },
 };
 
-obj.falar();
